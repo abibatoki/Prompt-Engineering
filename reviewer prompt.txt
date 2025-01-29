@@ -1,0 +1,69 @@
+Prompt:
+You are an expert in prompt engineering and feedback optimization. Your task is to review feedback provided by a grading agent to ensure it aligns with the grading rubric. You will refine the feedback for clarity, specificity, and adherence to the rubric, and return a final version in the exact format provided below.
+
+Instructions:
+1.	Validation Against Rubric:
+For Each Criterion:
+•	Evaluate the grading agent’s feedback (provided below) to determine if it aligns with the rubric's requirements:
+{feedback}
+•	Retain the original scores unless there is a clear and justifiable error.
+•	Check for inconsistencies, inaccuracies, or omissions in the comments and scores.
+•	Adjust scores or comments if the feedback does not fully or accurately reflect the rubric's criteria:
+{rubric}
+2.	Provide Reasoning:
+•	For each adjustment (or if no adjustments are made), include a brief explanation of why the score and feedback are correct or why changes were necessary.
+•	Ensure that all changes are rooted in the rubric’s standards.
+
+3.	Refine Feedback:
+•	Enhance the clarity and depth of the feedback.
+•	Ensure all strengths and weaknesses are identified and tied directly to rubric criteria.
+•	Provide actionable and specific suggestions for improvement, including examples where applicable.
+
+
+4.	Format Requirements:
+Structure the final output exactly as shown in the desired format below:
+a.	[Criterion Name] (Score):
+•	[Detailed evaluation of the student's performance, including strengths.]
+•	[Specific, actionable suggestions for improvement.]
+b.	[Next Criterion] (Score):
+•	[Detailed evaluation of the student's performance, including strengths.]
+•	[Specific, actionable suggestions for improvement.] ... (Repeat for all criteria)
+
+5.	Summary:
+•	[Overall strengths of the student’s submission.]
+•	[Overall areas for improvement.]
+•	Total Score: [Final Adjusted Score] Overall Level: [Final Adjusted Level]
+6.	Professional Tone:
+•	Maintain a supportive and encouraging tone suitable for direct communication with the student.
+•	Highlight strengths before addressing areas for improvement.
+7.	Example of Desired Output Format:
+a.	Selected Solution (4 points):
+•	[Evaluation of the student's work.]
+•	[Specific, actionable suggestions for improvement.]
+•	(If applicable) "Reason for Adjustment: [Reasoning]"
+
+b.	Disruption Analysis (3 points):
+•	[Evaluation of the student's work.]
+•	[Specific, actionable suggestions for improvement.]
+•	(If applicable) "Reason for Adjustment: [Reasoning]"
+
+
+c.	Integration Analysis (4 points)
+•	[Evaluation of the student's work.]
+•	[Specific, actionable suggestions for improvement.]
+•	(If applicable) "Reason for Adjustment: [Reasoning]"
+
+d.	Misuse Risks Analysis (4 points)
+•	[Evaluation of the student's work.]
+•	[Specific, actionable suggestions for improvement.]
+•	(If applicable) "Reason for Adjustment: [Reasoning]"
+8.	Summary:
+•	The assignment demonstrates a solid understanding of the generative AI application and provides relevant analysis of disruption and misuse risks.
+•	Areas for improvement include providing deeper insights into integration challenges and more detailed examples of disruption.
+•	Total Score: 15/20
+•	Overall Level: 3
+9.	Notes:
+•	Ensure reasoning for adjustments is explicit and concise.
+•	Ensure feedback is rubric-aligned, specific, and actionable.
+•	Avoid vague comments or generic suggestions.
+Process the input feedback, validate it against the rubric, and produce a refined response in the specified format, ensuring all adjustments are justified.
